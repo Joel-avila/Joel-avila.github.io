@@ -1,4 +1,6 @@
 const questions = [
+    //JOEL
+    
     //Serie 1
     //Questio 1
     {
@@ -488,10 +490,16 @@ const questions = [
         correctAnswer: "b",
         steps: `
             \\[
-            Minim 
+            A = \\frac{\\pi \\cdot d^2}{4} = \\frac{\\pi \\cdot (0,003 , \\text{m})^2}{4} = 7,0686 \\cdot 10^{-6} , \\text{m}^2
             \\]
             \\[
-            
+            \\sigma = \\frac{F}{A} = \\frac{1500 , \\text{N}}{7,0686 \\cdot 10^{-6} , \\text{m}^2} = 212,206 \\cdot 10^6 , \\text{Pa} = 212,206 , \\text{MPa}
+            \\]
+            \\[
+            \\varepsilon = \\frac{\\sigma}{E} = \\frac{212,206 \\cdot 10^6 , \\text{Pa}}{207 \\cdot 10^9 , \\text{Pa}} = 0,00102515
+            \\]
+            \\[
+            varepsilon(%) = \\varepsilon \\cdot 100 = 0,00102515 \\cdot 100 = 0,102515 , %
             \\]
             <br>`
     },
@@ -863,11 +871,11 @@ const questions = [
             \\[ 
             P_2 = \\frac{P_{\\text{elèctr}}}{\\eta_{\\text{gen}}} \\]
             \\[ 
-            P_2 = \\frac{1{,}0 \\times 10^6}{0{,}87} = 1{,}15 \\times 10^6 \\, \\text{W}
+            P_2 = \\frac{1{,}0 \\cdot 10^6}{0{,}87} = 1{,}15 \\cdot 10^6 \\, \\text{W}
             \\]
             - Conversió de velocitat angular:
             \\[ 
-            \\omega_2 = 1500 \\, \\frac{\\text{rev}}{\\text{min}} \\times \\frac{2\\pi \\, \\text{rad}}{1 \\, \\text{rev}} \\times \\frac{1 \\, \\text{min}}{60 \\, \\text{s}} = 157 \\, \\text{rad/s} 
+            \\omega_2 = 1500 \\, \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi \\, \\text{rad}}{1 \\, \\text{rev}} \\cdot \\frac{1 \\, \\text{min}}{60 \\, \\text{s}} = 157 \\, \\text{rad/s} 
             \\]
             - Relació entre potència i parell:
             \\[ 
@@ -877,7 +885,7 @@ const questions = [
             \\Gamma_2 = \\frac{P_2}{\\omega_2} 
             \\]
             \\[ 
-            \\Gamma_2 = \\frac{1{,}15 \\times 10^6}{157} = 7{,}33 \\times 10^3 \\, \\text{N·m} 
+            \\Gamma_2 = \\frac{1{,}15 \\cdot 10^6}{157} = 7{,}33 \\cdot 10^3 \\, \\text{N·m} 
             \\]
             <br>
 
@@ -885,21 +893,21 @@ const questions = [
             <br>
             - Conversió de velocitat angular de la turbina:
             \\[
-            \\omega_1 = 10 \\, \\frac{\\text{rev}}{\\text{min}} \\times \\frac{2\\pi}{60} = 1{,}05 \\, \\text{rad/s}
+            \\omega_1 = 10 \\, \\frac{\\text{rev}}{\\text{min}} \\cdot \\frac{2\\pi}{60} = 1{,}05 \\, \\text{rad/s}
             \\]
             - Potència mecànica a l’eix de sortida de la turbina:
             \\[ 
             P_1 = \\Gamma_1 \\cdot \\omega_1 
             \\]
             \\[ 
-            P_1 = 1{,}4 \\times 10^6 \\cdot 1{,}05 = 1{,}47 \\times 10^6 \\, \\text{W} 
+            P_1 = 1{,}4 \\cdot 10^6 \\cdot 1{,}05 = 1{,}47 \\cdot 10^6 \\, \\text{W} 
             \\]
             - Rendiment del multiplicador:
             \\[ 
             \\eta_{\\text{mult}} = \\frac{P_2}{P_1} 
             \\]
             \\[ 
-            \\eta_{\\text{mult}} = \\frac{1{,}15 \\times 10^6}{1{,}47 \\times 10^6} = 0{,}78 
+            \\eta_{\\text{mult}} = \\frac{1{,}15 \\cdot 10^6}{1{,}47 \\cdot 10^6} = 0{,}78 
             \\]
             - Relació de transmissió:
             \\[ 
@@ -917,21 +925,21 @@ const questions = [
             P_{\\text{diss,mult}} = P_1 - P_2 
             \\]
             \\[ 
-            P_{\\text{diss,mult}} = 1{,}47 \\times 10^6 - 1{,}15 \\times 10^6 = 3{,}2 \\times 10^5 \\, \\text{W}
+            P_{\\text{diss,mult}} = 1{,}47 \\cdot 10^6 - 1{,}15 \\cdot 10^6 = 3{,}2 \\cdot 10^5 \\, \\text{W}
             \\]
             - Potència dissipida al generador:
             \\[ 
             P_{\\text{diss,gen}} = P_2 - P_{\\text{elèctr}} 
             \\]
             \\[ 
-            P_{\\text{diss,gen}} = 1{,}15 \\times 10^6 - 1{,}0 \\times 10^6 = 1{,}5 \\times 10^5 \\, \\text{W} 
+            P_{\\text{diss,gen}} = 1{,}15 \\cdot 10^6 - 1{,}0 \\cdot 10^6 = 1{,}5 \\cdot 10^5 \\, \\text{W} 
             \\]
             - Potència total dissipida:
             \\[ 
             P_{\\text{diss}} = P_{\\text{diss,mult}} + P_{\\text{diss,gen}} 
             \\]
             \\[ 
-            P_{\\text{diss}} = 3{,}2 \\times 10^5 + 1{,}5 \\times 10^5 = 4{,}7 \\times 10^5 \\, \\text{W} 
+            P_{\\text{diss}} = 3{,}2 \\cdot 10^5 + 1{,}5 \\cdot 10^5 = 4{,}7 \\cdot 10^5 \\, \\text{W} 
             \\]
             <br>`,
     },
@@ -960,7 +968,7 @@ const questions = [
             <br>
             - Àrea del rectangle inferior
             \\[
-            A_R = L_3 \\times L_2 = 25 \\, \\text{mm} \\times 30 \\, \\text{mm} = 750 \\, \\text{mm}^2
+            A_R = L_3 \\cdot L_2 = 25 \\, \\text{mm} \\cdot 30 \\, \\text{mm} = 750 \\, \\text{mm}^2
             \\]
             - Alçada del trapezi superior
             \\[
@@ -968,17 +976,17 @@ const questions = [
             \\]
             - Àrea del trapezi superior
             \\[
-            A_T = \\frac{L_3 + L_4}{2} \\times h_T
+            A_T = \\frac{L_3 + L_4}{2} \\cdot h_T
             \\]
             \\[
-            A_T = \\frac{25 + 12{,}5}{2} \\times 30 = 562{,}5 \\, \\text{mm}^2
+            A_T = \\frac{25 + 12{,}5}{2} \\cdot 30 = 562{,}5 \\, \\text{mm}^2
             \\]
             - Àrea del forat circular
             \\[
             r_f = \\frac{d}{2} = \\frac{10}{2} = 5 \\, \\text{mm}
             \\]
             \\[
-            A_F = \\pi r_f^2 = \\pi \\times 5^2 = 78{,}54 \\, \\text{mm}^2
+            A_F = \\pi r_f^2 = \\pi \\cdot 5^2 = 78{,}54 \\, \\text{mm}^2
             \\]
             - Àrea total d'una peça
             \\[
@@ -989,27 +997,27 @@ const questions = [
             \\]
             - Volumen de una pieza
             \\[
-            V_1 = A \\times s = 1233{,}96 \\, \\text{mm}^2 \\times 15 \\, \\text{mm}
+            V_1 = A \\cdot s = 1233{,}96 \\, \\text{mm}^2 \\cdot 15 \\, \\text{mm}
             \\]
             \\[
             V_1 = 18509{,}4 \\, \\text{mm}^3
             \\]
             - Volum total (dues peces)
             \\[
-            V = 2 \\times V_1 = 2 \\times 18509{,}4 = 37018{,}8 \\, \\text{mm}^3
+            V = 2 \\cdot V_1 = 2 \\cdot 18509{,}4 = 37018{,}8 \\, \\text{mm}^3
             \\]
             \\[
-            V = 3{,}7019 \\times 10^{-5} \\, \\text{m}^3
+            V = 3{,}7019 \\cdot 10^{-5} \\, \\text{m}^3
             \\]
             - Massa total
             \\[
-            m = \\rho \\times V
+            m = \\rho \\cdot V
             \\]
             \\[
-            m = 1250 \\, \\frac{\\text{kg}}{\\text{m}^3} \\times 3{,}7019 \\times 10^{-5} \\, \\text{m}^3
+            m = 1250 \\, \\frac{\\text{kg}}{\\text{m}^3} \\cdot 3{,}7019 \\cdot 10^{-5} \\, \\text{m}^3
             \\]
             \\[
-            m = 4{,}63 \\times 10^{-2} \\, \\text{kg} = 46{,}3 \\, \\text{g}
+            m = 4{,}63 \\cdot 10^{-2} \\, \\text{kg} = 46{,}3 \\, \\text{g}
             \\]
             <br>
 
@@ -1017,7 +1025,7 @@ const questions = [
             <br>
             - Àrea de la secció del filament
             \\[
-            A_f = \\pi r^2 = \\pi \\times 1{,}5^2 = 7{,}07 \\, \\text{mm}^2
+            A_f = \\pi r^2 = \\pi \\cdot 1{,}5^2 = 7{,}07 \\, \\text{mm}^2
             \\]
             - Longitud del filamento
             \\[
@@ -1063,18 +1071,18 @@ const questions = [
             <br>
             - Càlcul de la secció del pistó:
             \\[ 
-            A = \\frac{\\pi \\cdot d_{int}^2}{4} = \\frac{\\pi \\cdot 0,09^2}{4} = 6,3617 \\times 10^{-3} , \\text{m}^2 
+            A = \\frac{\\pi \\cdot d_{int}^2}{4} = \\frac{\\pi \\cdot 0,09^2}{4} = 6,3617 \\cdot 10^{-3} , \\text{m}^2 
             \\]
             - Càlcul del cabal:
             \\[ 
-            q = A \\times v = 6,3617 \\times 10^{-3} , \\text{m}^2 \\times 0,33 , \\text{m/s} = 2,099 \\times 10^{-3} , \\text{m}^3\\text{/s} 
+            q = A \\cdot v = 6,3617 \\cdot 10^{-3} , \\text{m}^2 \\cdot 0,33 , \\text{m/s} = 2,099 \\cdot 10^{-3} , \\text{m}^3\\text{/s} 
             \\]
             - Càlcul de la pressió de la bomba:
             \\[ 
-            P_{hyd} = P_{electr} \\times \\eta_b = 5300 , \\text{W} \\times 0,85 = 4505 , \\text{W} 
+            P_{hyd} = P_{electr} \\cdot \\eta_b = 5300 , \\text{W} \\cdot 0,85 = 4505 , \\text{W} 
             \\] 
             \\[ 
-            p = \\frac{P_{hyd}}{q} = \\frac{4505 , \\text{W}}{2,099 \\times 10^{-3} , \\text{m}^3\\text{/s}} = 2,146 \\times 10^6 , \\text{Pa} = 2,146 , \\text{MPa} 
+            p = \\frac{P_{hyd}}{q} = \\frac{4505 , \\text{W}}{2,099 \\cdot 10^{-3} , \\text{m}^3\\text{/s}} = 2,146 \\cdot 10^6 , \\text{Pa} = 2,146 , \\text{MPa} 
             \\]
             <br>
 
@@ -1082,11 +1090,11 @@ const questions = [
             <br>
             - Força del cilindre
             \\[ 
-            F_{ch} = m \\times g = 1170 , \\text{kg} \\times 9,81 , \\text{m/s}^2 = 11477,7 , \\text{N} 
+            F_{ch} = m \\cdot g = 1170 , \\text{kg} \\cdot 9,81 , \\text{m/s}^2 = 11477,7 , \\text{N} 
             \\]
             - Pressió interior
             \\[
-            p_{int} = \\frac{F_{ch}}{A} = \\frac{11477,7 , \\text{N}}{6,3617 \\times 10^{-3} , \\text{m}^2} = 1,804 \\times 10^6 , \\text{Pa} = 1,804 , \\text{MPa} 
+            p_{int} = \\frac{F_{ch}}{A} = \\frac{11477,7 , \\text{N}}{6,3617 \\cdot 10^{-3} , \\text{m}^2} = 1,804 \\cdot 10^6 , \\text{Pa} = 1,804 , \\text{MPa} 
             \\]
             <br>
 
@@ -1094,7 +1102,7 @@ const questions = [
             <br>
             - Rendiment del cilindre
             \\[ 
-            P_{util} = F_{ch} \\times v = 11477,7 , \\text{N} \\times 0,33 , \\text{m/s} = 3787,6 , \\text{W} 
+            P_{util} = F_{ch} \\cdot v = 11477,7 , \\text{N} \\cdot 0,33 , \\text{m/s} = 3787,6 , \\text{W} 
             \\] 
             \\[ 
             \\eta_{ch} = \\frac{P_{util}}{P_{hyd}} = \\frac{3787,6 , \\text{W}}{4505 , \\text{W}} = 0,8407 = 84,07 % 
@@ -1102,61 +1110,6 @@ const questions = [
             - Potència total dissipada
             \\[ 
             P_{diss} = P_{electr} - P_{util} = 5300 , \\text{W} - 3787,6 , \\text{W} = 1512,4 , \\text{W} 
-            \\]
-            <br>`,
-    },
-
-    //Model
-    {
-        type: "exercicis",
-        category: " ... ",
-        text: `...
-               <br><strong>a)</strong> ...
-               <br><strong>b)</strong> ...
-               <br><strong>c)</strong> ...
-               <br><strong>d)</strong> ...
-               <br><strong>e)</strong> ...
-               <br>`,
-               
-        correctAnswer: "",  // No és necessari aquí perquè es tracta d'un exercici obert
-        steps: `
-            <strong>a) ...</strong>
-            <br>
-            - ...
-            \\[
-            ...
-            \\]
-            <br>
-
-            <strong>b) ...</strong>
-            <br>
-            - ...
-            \\[
-            ...
-            \\]
-            <br>
-
-            <strong>c) ...</strong>
-            <br>
-            - ...
-            \\[
-            ...
-            \\]
-            <br>
-
-            <strong>d) ...</strong>
-            <br>
-            - ...
-            \\[ 
-            ...
-            \\]
-            <br>
-
-            <strong>e) ...</strong>
-            <br>
-            - ...
-            \\[
-            ...
             \\]
             <br>`,
     },
