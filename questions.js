@@ -713,7 +713,7 @@ const questions = [
     {
         type: "exercicis",
         category: "electrics",
-        text: `<img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
                Una llanterna consta de cinc leds connectats en paraŀlel. Quan la llanterna emet llum 
                blanca, la caiguda de tensió de cada led és \\(U_\\text{led} = 3,4 \\text{V}\\). La llanterna s’alimenta amb tres 
                piles connectades en sèrie. Cada pila proporciona una tensió \\(U_\\text{pila} = 1,5 \\text{V}\\) i té una capacitat 
@@ -849,7 +849,7 @@ const questions = [
     {
         type: "exercicis",
         category: "energia",
-        text: `<img src="https://Joel-avila.github.io/fotos/2019Exercici4Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici4Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
                L’energia mareomotriu és un tipus d’energia hidràulica que s’obté a partir de les marees. 
                Per tal de convertir aquesta energia en electricitat, s’utilitzen sistemes com el de la figura, formats per una turbina que gira impulsada per la marea, un multiplicador d’engranatges i un 
                generador elèctric. El sistema que s’estudia genera una potència elèctrica \\(P_\\text{elèctr} = 1 000 \\, \\text{kW}\\) en 
@@ -948,7 +948,7 @@ const questions = [
     {
         type: "exercicis",
         category: "materials",
-        text: `<img src="https://Joel-avila.github.io/fotos/2019Exercici3.2Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3.2Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
                Uns enginyers dissenyen un prototip de braç robòtic de baix cost format per peces que 
                s’elaboren amb una impressora 3D. Entre aquestes peces, hi ha les dues que es mostren en 
                la figura, que són idèntiques entre si i formen una pinça situada a l’element terminal del 
