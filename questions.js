@@ -359,7 +359,7 @@ const questions = [
                \\(m = 12 \\, \\text{kg}\\) està subjecte a la barra BO mitjançant dos petits cables d’acer en els punts C i D. 
                El tirant AB manté el sistema en equilibri. La barra està articulada amb la paret en el punt O, 
                i les masses de tots els elements són negligibles, excepte la del cartell rectangular
-               <img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie1_J.PNG" alt="Imatge relacionada amb la resposta">
+               <br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie1_J.PNG" alt="Imatge relacionada amb la resposta">
                <br><strong>a)</strong> Determineu les forces \\(T_C\\) i \\(T_D\\) a les quals estan sotmesos els cables d’acer. [0,5 punts]
                <br><strong>b)</strong> Dibuixeu el diagrama de cos lliure de la barra BO. [0,5 punts]
                <br>Determineu:
@@ -377,6 +377,7 @@ const questions = [
             \\[
             \\Sigma M(G) = 0 \\to T_C \\cdot - T_D \\cdot d = 0 \\to T_C = T_D = \\frac{m \\cdot g}{2} = 58{,}84 \\, \\text{N}
             \\]
+            <br>
             <img src="https://Joel-avila.github.io/fotos/2019Exercici3.2Serie1_J.PNG" alt="Imatge relacionada amb la resposta">
             <br>
 
@@ -849,7 +850,7 @@ const questions = [
     {
         type: "exercicis",
         category: "energia",
-        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici4Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici4Serie4_J.PNG" alt="Imatge relacionada amb la pregunta"><br>
                L’energia mareomotriu és un tipus d’energia hidràulica que s’obté a partir de les marees. 
                Per tal de convertir aquesta energia en electricitat, s’utilitzen sistemes com el de la figura, formats per una turbina que gira impulsada per la marea, un multiplicador d’engranatges i un 
                generador elèctric. El sistema que s’estudia genera una potència elèctrica \\(P_\\text{elèctr} = 1 000 \\, \\text{kW}\\) en 
@@ -948,7 +949,7 @@ const questions = [
     {
         type: "exercicis",
         category: "materials",
-        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3.2Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3.2Serie4_J.PNG" alt="Imatge relacionada amb la pregunta"><br>
                Uns enginyers dissenyen un prototip de braç robòtic de baix cost format per peces que 
                s’elaboren amb una impressora 3D. Entre aquestes peces, hi ha les dues que es mostren en 
                la figura, que són idèntiques entre si i formen una pinça situada a l’element terminal del 
@@ -1313,7 +1314,7 @@ const questions = [
     {
         type: "exercicis",
         category: "energia",
-        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie5_J.PNG" alt="Imatge relacionada amb la resposta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie5_J.PNG" alt="Imatge relacionada amb la resposta"><br>
                <br>
                La tapa de la figura té una massa \\(m = 30 \\text{kg}\\) i el centre de masses en el punt G. S’obre estirant-la per la nansa A amb una força F perpendicular a la tapa, i s’uneix a terra per mitjà de
                dues barres idèntiques que tenen un extrem articulat a la tapa i l’altre extrem articulat a terra.
