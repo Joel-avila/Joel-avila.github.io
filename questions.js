@@ -714,7 +714,7 @@ const questions = [
     {
         type: "exercicis",
         category: "electrics",
-        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie4_J.PNG" alt="Imatge relacionada amb la pregunta">
+        text: `<br><img src="https://Joel-avila.github.io/fotos/2019Exercici3Serie4_J.PNG" alt="Imatge relacionada amb la pregunta"><br>
                Una llanterna consta de cinc leds connectats en paraŀlel. Quan la llanterna emet llum 
                blanca, la caiguda de tensió de cada led és \\(U_\\text{led} = 3,4 \\text{V}\\). La llanterna s’alimenta amb tres 
                piles connectades en sèrie. Cada pila proporciona una tensió \\(U_\\text{pila} = 1,5 \\text{V}\\) i té una capacitat 
